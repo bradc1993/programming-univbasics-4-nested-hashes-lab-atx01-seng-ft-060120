@@ -110,7 +110,9 @@ def changing_alan
       }
     }
 
-alans_new_info = 
+alans_new_info = "GUI"
+programmer_hash[:alan_kay][:known_for] = alans_new_info
+programmer_hash
 end
 
 def adding_to_dennis
@@ -133,4 +135,6 @@ def adding_to_dennis
       }
     }
 
+programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
+programmer_hash
 end
